@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://la-libertad.farmacias-cytotec-peru.shop/sitemap.xml

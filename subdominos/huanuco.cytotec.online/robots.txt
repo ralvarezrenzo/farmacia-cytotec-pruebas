@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huanuco.farmacias-cytotec-peru.shop/sitemap.xml

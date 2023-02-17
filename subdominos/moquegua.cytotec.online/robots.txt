@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moquegua.farmacias-cytotec-peru.shop/sitemap.xml

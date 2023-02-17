@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ancash.farmacias-cytotec-peru.shop/sitemap.xml

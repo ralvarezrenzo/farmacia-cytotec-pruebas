@@ -1,0 +1,28 @@
+RewriteOptions inherit
+ 
+<IfModule mod_rewrite.c>
+Options -MultiViews
+RewriteEngine ON
+
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://san-martin.farmacias-cytotec-peru.shop/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^www\.san-martin.cytotec\.online$ [NC]  
+RewriteRule ^(.*)$ http://san-martin.farmacias-cytotec-peru.shop/$1 [R=301,QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule (.+) /$1/index.html [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule (.+) /$1.html [QSA,L]
+
+</IfModule>
+RewriteCond %{HTTP_HOST} ^san-martin.cytotec\.online$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.san-martin.cytotec\.online$
+RewriteRule ^http$ "http\:\/\/https\:\/\/" [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit

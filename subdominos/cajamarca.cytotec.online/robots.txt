@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cajamarca.farmacias-cytotec-peru.shop/sitemap.xml

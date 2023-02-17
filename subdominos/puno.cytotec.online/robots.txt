@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://puno.farmacias-cytotec-peru.shop/sitemap.xml
